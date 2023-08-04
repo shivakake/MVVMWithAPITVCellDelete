@@ -7,6 +7,7 @@
 
 import UIKit
 import SDWebImage
+
 protocol HomeTableViewCellDelegate : AnyObject {
     func deleteCell(rowData : String?)
 }
